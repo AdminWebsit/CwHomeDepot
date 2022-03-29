@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>product details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/prod_detail.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg" style="padding-right: 11%; background-color: #1e4299">
+        <div class="container">
+            <a class="navbar-brand img-responsive" href="#" style="padding-left: 10%;"><img src="logo/cw.png" width="80"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto" style="padding-left: 10%;">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Partners
+                        </a>
+                        <ul class="dropdown-menu bg-primary bg-gradient" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item text-white " href="http://www.cebuoversea.com/">Cebu Oversea</a></li>
+                            <li><a class="dropdown-item text-white" href="https://www.cwhomedepot.com/">CW Home Depot</a></li>
+                            <li><a class="dropdown-item text-white" href="http://sinisianportandindustrialpark.com/">Sinisian Lemery Port</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR-->
+    <!--PAGE CONTENT-->
+    <div class="single_product">
+        <div class="container-fluid" style=" background-color: #fff; padding: 11px;">
+            <div class="row">
+                <div class="col-lg-2 order-lg-1 order-2">
+                    <ul class="image_list">
+                        <li><img src="Brochure/Barako/BARAKO-Cement-Products.jpg" alt=""></li>
+                        <li><img src="Brochure/Barako/t1.jpg" alt=""></li>
+                        <li><img src="Brochure/Barako/t1p.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 order-lg-2 order-1">
+                    <div class="image_selected"><img class="thmbnail" src="Brochure/Barako/BARAKO-Cement-Products.jpg" alt=""></div>
+                </div>
+                <div class="col-lg-6 order-3" style="padding-top: 5%;">
+                    <div><a href="Product.html"><h6>back</h6>   </a></div>
+                    <div class="product_description" id="items">
+                        <div class="product_name" id="title">BARAKO Portland Cement</div>
+                        <hr class="singleline">
+                        <div>
+                            <div class="row">
+                                <div class="col-xs-6" style="margin-left: 1%;">
+                                    <img src="qr_products/barako_qr.png" class="img-thumbnail mx-auto d-block" style="width: 30%;padding-left: 0%;">
+                                    <h5 class="text-center">Scan Me for Brochure!</h5>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 15px;">
+                                <div class="col-xs-6" style="margin-left: 15px;"> <span class="product_options">TYPE</span><br> <button class="btn btn-primary btn-sm">TYPE 1P CEMENT</button> <button class="btn btn-primary btn-sm">TYPE 1 CEMENT</button> <button class="btn btn-primary btn-sm">TYPE 2 CEMENT</button> </div>
+                                <div class="col-xs-6" style="margin-left: 55px;"> <span class="product_options">PACKAGING OPTIONS</span><br> <button class="btn btn-primary btn-sm">40KG BAGS</button> <button class="btn btn-primary btn-sm">1MT BAGS</button> <button class="btn btn-primary btn-sm">CUSTOM JUMBO BAGS</button></div>
+                            </div>
+                        </div>
+                        <hr class="singleline">
+                        <div class="order_info d-flex flex-row">
+                            <form action="#"></form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PAGE CONTENT-->
+    <!--FOOTER-->
+    <footer id="footer" class="footer-1">
+        <div class="main-footer widgets-dark typo-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget subscribe no-box">
+                            <img src="logo/cw.png">
+                            <p class="text-center">Cohaco Merchandising & Devt Corp is a wholesaler of construction materials and importer of Portland Cement nationwide.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">Quick Links<span></span></h5>
+                            <ul class="thumbnail-widget">
+                                <li>
+                                    <div class="thumb-content" aria-current="page" aria-disabled="true"><a href="#">Home</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content"><a href="Product.html">Products</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content"><a href="#.">Projects</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content"><a href="#.">Contact Us</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">Affiliate Companies<span></span></h5>
+                            <ul class="thumbnail-widget">
+                                <li>
+                                    <div class="thumb-content"><a href="http://www.cebuoversea.com/">Cebu Oversea</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content"><a href="https://www.cwhomedepot.com/">CW Home Depot</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content"><a href="http://sinisianportandindustrialpark.com/">Sinisian Lemery Port</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">CONNECT WITH US ON FACEBOOK<span></span></h5>
+                            <ul class="thumbnail-widget">
+                                <li>
+                                    <div class="thumb-content"><a href="https://www.facebook.com/Cohaco-Merchandising-Devt-Corp-101731208248649/">Cohaco Merchandising</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content"><a href="https://www.facebook.com/NGC-Land-Corp-109973747415146">NGC Land Corp.</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content"><a href="https://www.facebook.com/Kaito-Portland-Cement-110922173987355">Kaito Portland Cement</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content"><a href="https://www.facebook.com/Barako-Portland-cement-110541737359244">Barako Portland Cement</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>Copyright CW Home Depot © 2022. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--FOOTER-->
+</body>
+</html>
